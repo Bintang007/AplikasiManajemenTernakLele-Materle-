@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MaterleApp.jnlp">
+  <information>
+    <title>MaterleApp</title>
+    <vendor>STAR</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MaterleApp.jar" size="477746" download="eager" />
+    <jar href="lib\KControls.jar" size="17652" download="eager" />
+    <jar href="lib\jfoenix-8.0.8.jar" size="2708772" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="materle.MaterleApp"  name="MaterleApp" />
+  <update check="always"/>
+</jnlp>

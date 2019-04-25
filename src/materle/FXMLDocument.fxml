@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1050.0" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane fx:id="drawerLeft" focusTraversable="true" layoutX="-6.0" layoutY="-7.0" prefHeight="590.0" prefWidth="529.0" style="-fx-background-color: black; -fx-opacity: 0.33;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="0.0" />
+      <ImageView fx:id="imgCatfish" fitHeight="475.0" fitWidth="446.0" layoutX="50.0" layoutY="94.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cartoon_catfish.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblWelcome" layoutX="69.0" layoutY="207.0" prefHeight="58.0" prefWidth="391.0" style="-fx-opacity: 7;" text="Selamat Datang di Materle" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="69.0">
+         <font>
+            <Font name="Open Sans Bold" size="29.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblDescriptiveApp" layoutX="69.0" layoutY="245.0" prefHeight="105.0" prefWidth="399.0" text="Aplikasi manajemen ternak lele yang dapat memudahkan pengguna dalam mengelola sumber daya dan aktivitas terkait" textFill="WHITE" wrapText="true" AnchorPane.leftAnchor="69.0">
+         <font>
+            <Font name="Open Sans" size="14.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnSignup" buttonType="RAISED" layoutX="64.0" layoutY="349.0" prefHeight="34.0" prefWidth="163.0" ripplerFill="WHITE" stylesheets="@../style.css" text="DAFTAR" textFill="WHITE" AnchorPane.leftAnchor="70.0">
+         <font>
+            <Font name="Open Sans Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <AnchorPane fx:id="paneSignin" focusTraversable="true" layoutX="558.0" layoutY="115.0" prefHeight="387.0" prefWidth="328.0" style="-fx-background-color: white; -fx-background-radius: 7;" AnchorPane.rightAnchor="64.0">
+         <children>
+            <Label fx:id="lblSignin" layoutX="122.0" layoutY="52.0" text="Masuk" textFill="#7c7c7c">
+               <font>
+                  <Font name="Open Sans Semibold" size="28.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtFieldUsername" focusColor="#d00dd0" labelFloat="true" layoutX="44.0" layoutY="136.0" prefHeight="30.0" prefWidth="246.0" promptText="Username" unFocusColor="MAGENTA">
+               <font>
+                  <Font name="Open Sans" size="16.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="passFieldPassword" focusColor="#d00dd0" labelFloat="true" layoutX="44.0" layoutY="194.0" prefHeight="30.0" prefWidth="246.0" promptText="Password" unFocusColor="MAGENTA">
+               <font>
+                  <Font name="Open Sans" size="16.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton fx:id="btnSignin" buttonType="RAISED" layoutX="87.0" layoutY="269.0" prefHeight="34.0" prefWidth="163.0" ripplerFill="WHITE" stylesheets="@../style.css" text="MASUK" textFill="WHITE">
+               <font>
+                  <Font name="Open Sans Bold" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <Label fx:id="btnForgetPassword" layoutX="125.0" layoutY="314.0" text="Lupa password?">
+               <font>
+                  <Font name="Open Sans Light" size="12.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

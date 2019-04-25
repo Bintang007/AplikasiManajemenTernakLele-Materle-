@@ -1,0 +1,14 @@
+#anchor {
+	-fx-background-color : linear-gradient(#ff00ff, #d00dd0);
+}
+#btnSignin {
+	-fx-background-color : linear-gradient(to right bottom, #ff00ff, #d00dd0);
+	-fx-background-radius : 5px;
+}
+#btnSignup {
+	-fx-background-color : linear-gradient(to right bottom, #ff00ff, #d00dd0);
+	-fx-background-radius : 5px;
+}
+#paneSignin {
+	-fx-effect : dropshadow(one-pass-box, rgba(0,0,0,0.2), 10, 0, 3, 4);
+}
