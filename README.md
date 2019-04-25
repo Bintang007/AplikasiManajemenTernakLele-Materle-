@@ -1,5 +1,5 @@
 # AplikasiManajemenTernakLele (Materle App)
-Aplikasi ini memudahkan pemilik ternak lele untuk memenejemen sumber daya dan aktivitas terkait.
+Aplikasi ini memudahkan pemilik usaha ternak lele dalam mengelola sumber daya dan aktivitas terkait.
 
 # Screenshoot tampilan Materle App
 <img src="./screenshoot.PNG">
